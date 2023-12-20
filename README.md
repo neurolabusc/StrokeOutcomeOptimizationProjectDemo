@@ -41,12 +41,12 @@ SVR - Correlation (R): 0.4785154590654683, p-value: 4.973518502919079e-53
 
 These are the derived [NIfTI format](https://brainder.org/2012/09/23/the-nifti-file-format/) images created by the lesionNorm script. These can be viewed with many neuroimaging tools, including our [web-based drag-and-drop NiiVue](https://niivue.github.io/niivue/features/basic.multiplanar.html).
 
- - `wbsub-M*_T1w.nii.gz` : anatomical T1-weighted MRI scan from each participant warped (`w`) to standard space and brain-extracted (`b`). 
- - `wsub-M*_lesion.nii.gz` : map of injury from each individual warped to standard space.
- - `jhu156.nii.gz` : atlas of brain regions, in same space as individual images.
- - `jhu156.txt` : Text file which provides name and index number for brain regions in the atlas.
- - `T1_mean_289.nii.gz` : Average T1-weighted image for all participants.
- - `lesion_mean_289.nii.gz` : Average lesion map for all participants.
+ - `wsub-*_FLAIR.nii.gz` : anatomical T2-weighted FLAIR MRI scan from each participant warped (`w`) to standard space and [SynthStrip](https://pubmed.ncbi.nlm.nih.gov/35842095/) brain-extracted. ** [Due to the large file size, these images are not provided on Github. These are available from OSF](https://osf.io/yqktj/)**
+ - `bwsrsub-*_lesion` : map of injury from each individual warped to standard space.
+ - `ArterialAtlas136.nii.gz` : [arterial atlas](https://www.nitrc.org/projects/arterialatlas) of brain regions, in same space as individual images.
+ - `ArterialAtlas136.txt` : Text file which provides name and index number for brain regions in the atlas.
+ - `FLAIR_mean_1714.nii.gz` : Average FLAIR image for all participants.
+ - `lesion_mean_1449.nii.gz` : Average lesion map for all participants.
  
 ![result of bids_bitmaps.py](./PNG/rsub-1725_lesion.nii.png)
 
@@ -57,3 +57,7 @@ These bitmap images are created by the `bids_bitmaps.py` and aid quality assuran
  - `wsub-M*.png` provide orthogonal slices (axial, sagittal, coronal) and volume rendered images for the warped and brain extracted T1-weighted MRI scan with the lesion shown as translucent red. The cross-hair is positioned at the center of mass for the lesion. Since brain-extraction is derived from the unified normalization-segmentation algorithm, an accurate brain extraction and cortical surface rendering is consistent with an accurate normalization to standard space.
 
 ![averaging of bids_bitmaps.py](SOOP_norm.png)
+
+### How to Acknowledge
+
+If you use SOOP, please cite our work: `update when manuscript reviewed`

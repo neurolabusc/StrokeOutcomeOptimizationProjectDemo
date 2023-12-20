@@ -40,7 +40,7 @@ def create_mean_image(folder_path, output_path):
     mean_nifti = nib.Nifti1Image(mean_data, first_nifti.affine, first_nifti.header)
 
     # Save the mean NIfTI image
-    nib.save(mean_nifti, os.path.join(output_path, f"T1_mean_{len(nifti_files)}.nii.gz"))
+    nib.save(mean_nifti, os.path.join(output_path, f"FLAIR_mean_{len(nifti_files)}.nii.gz"))
 
     print(f"Mean of {len(nifti_files)} images saved to: {output_path}")
 
