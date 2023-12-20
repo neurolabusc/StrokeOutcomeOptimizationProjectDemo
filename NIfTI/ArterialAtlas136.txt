@@ -1,0 +1,32 @@
+1|ACAL|anterior cerebral artery left|1
+2|ACAR|anterior cerebral artery right|2
+3|MLSL|medial lenticulostriate left|1
+4|MLSR|medial lenticulostriate right|2
+5|LLSL|lateral lenticulostriate left|3
+6|LLSR|lateral lenticulostriate right|4
+7|MCAFL|frontal pars of middle cerebral artery left|3
+8|MCAFR|frontal pars of middle cerebral artery right|4
+9|MCAPL|parietal pars of middle cerebral artery left|3
+10|MCAPL|parietal pars of middle cerebral artery right|4
+11|MCATL|temporal pars of middle cerebral artery left|3
+12|MCATL|temporal pars of middle cerebral artery right|4
+13|MCAOL|occipital pars of middle cerebral artery left|3
+14|MCAOL|occipital pars of middle cerebral artery right|4
+15|MCAIL|insular pars of middle cerebral artery left|3
+16|MCAIL|insular pars of middle cerebral artery right|4
+17|PCATL|temporal pars of posterior cerebral artery left|5
+18|PCATR|temporal pars of posterior cerebral artery right|6
+19|PCAOL|occipital pars of posterior cerebral artery left|5
+20|PCAOR|occipital pars of posterior cerebral artery right|6
+21|PCTPL|posterior choroidal and thalamoperfurators left|5
+22|PCTPR|posterior choroidal and thalamoperfurators right|6
+23|ACTPL|anteior choroidal and thalamoperfurators left|5
+24|ACTPR|anterior choroidal and thalamoperfurators right|6
+25|BL|basilar left|7
+26|BR|basilar right|8
+27|SCL|superior cerebellar left|7
+28|SCR|superior cerebellar right|8
+29|ICL|inferior cerebellar left|7
+30|ICR|inferior cerebellar right|8
+31|LVL|lateral ventricle left|9
+32|LVR|lateral ventricle right|10
