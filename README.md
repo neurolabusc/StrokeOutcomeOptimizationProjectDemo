@@ -1,6 +1,7 @@
 ## About
 
-This repository includes scripts to process and analyze images from the original 228 individuals in the [Aphasia Recovery Cohort (ARC) Dataset](https://openneuro.org/datasets/ds004512/), as well as the resulting images derived from the processing. The goal of this repository is to provide a minimal starting point for analyzing the ARC. This educational resource illustrates how to process clinical datasets stored in the [BIDS](https://bids.neuroimaging.io/) format. Our hope is that more sophisticated methods can improve clinical lesion mapping, spatial processing and prediction.
+This repository includes scripts to process and analyze images from all 1714 acute individuals with suspected stroke (with 1449 having stroke confirmed) in the [Stroke Outcome Optimization Project (SOOP)
+](https://openneuro.org/datasets/ds004889), as well as the resulting images derived from the processing. The goal of this repository is to provide a minimal starting point for analyzing the SOOP. This acute dataset compliments the [Aphasia Recovery Cohort](https://github.com/neurolabusc/AphasiaRecoveryCohortDemo) from individuals with chronic impairments. This educational resource illustrates how to process clinical datasets stored in the [BIDS](https://bids.neuroimaging.io/) format. Our hope is that more sophisticated methods can improve clinical lesion mapping, spatial processing and prediction.
 
 ### Scripts
 
