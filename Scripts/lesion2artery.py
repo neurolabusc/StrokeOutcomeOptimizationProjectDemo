@@ -17,7 +17,7 @@ def count_nonzero_voxels_in_atlas(atlas_data, image_path):
     region_counts = {}
 
     # Iterate through each region of the atlas
-    for region_label in range(1, atlas_data.max()):
+    for region_label in range(1, atlas_data.max()+1):
         # Create a binary mask for the current region in the atlas
         region_mask = atlas_data == region_label
 
@@ -97,7 +97,7 @@ if __name__ == "__main__":
     with open(output_file, 'a') as output:
         output.write("participant_id\t")
         output.write("lesion_volume\t")
-        output.write("\t".join(f"{atlas_labels[region]}" for region in range(1, atlas_data.max())))
+        output.write("\t".join(f"{atlas_labels[region]}" for region in range(1, atlas_data.max()+1)))
         output.write("\n")
 
     matching_files = find_matching_files(folder_path, file_pattern)
@@ -112,5 +112,5 @@ if __name__ == "__main__":
                 subj = remove_prefix(parts[0], prefix)
                 output.write(subj+"\t")
                 output.write(str(total)+"\t")
-                output.write("\t".join(f"{counts[region]}" for region in range(1, atlas_data.max())))
+                output.write("\t".join(f"{counts[region]}" for region in range(1, atlas_data.max()+1)))
                 output.write("\n")
