@@ -59,6 +59,6 @@ These bitmap images are created by the `bids_bitmaps.py` and aid quality assuran
 
 ![averaging of bids_bitmaps.py](SOOP_norm.png)
 
-### How to Acknowledge
+### Citation
 
-If you use SOOP, please cite our work: `update when manuscript reviewed`
+  - Absher, J., Goncher, S., Newman-Norlund, R., Perkins, N., Yourganov, G., Vargas, J., … Rorden, C. ([2024](https://pubmed.ncbi.nlm.nih.gov/39095364/)). The stroke outcome optimization project: Acute ischemic strokes from a comprehensive stroke center. Scientific Data, 11(1), 839. PMID: 39095364 DOI: 10.1038/s41597-024-03667-5
